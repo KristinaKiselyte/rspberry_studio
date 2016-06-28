@@ -13,5 +13,11 @@
  *= require_tree .
  *= require_self
  */
-
+@charset "utf-8";
 @import "neat";
+
+@import "welcome";
+
+body {
+  margin: 0;
+}
