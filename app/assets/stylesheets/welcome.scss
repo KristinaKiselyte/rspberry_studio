@@ -11,3 +11,41 @@ nav {
 body {
   background-color:$grey;
 }
+
+.row {
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.site-name, .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-pic {
+  img{
+  border-radius: 50%;
+  border: 5px solid #fff;
+  max-width: 120px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  background-color: #fff;
+  padding: 35px;
+  li {
+    display: inline-block;
+  }
+}
