@@ -1,6 +1,9 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'typography'; // type
+
 $grey: #f4f4f4;
 
 nav {
@@ -10,6 +13,7 @@ nav {
 
 body {
   background-color:$grey;
+  @include regular-font();
 }
 
 .row {
@@ -26,6 +30,9 @@ body {
 .site-name, .logo {
   display: inline-block;
   vertical-align: middle;
+  font-size: 3em;
+  padding: 10px;
+  font-weight: 700;
 }
 
 .profile-pic {
@@ -48,4 +55,9 @@ ul {
   li {
     display: inline-block;
   }
+}
+
+.big-txt {
+  font-size: 5em;
+  font-weight: 700;
 }

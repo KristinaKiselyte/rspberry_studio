@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+
+
+@mixin regular-font($font-family:$main-font, $font-weight:$regular-weight) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+}
+
+$main-font: 'Muli', sans-serif;
+$regular-weight: 400;
+$bold-weight: 700;
+
+@mixin regular-font($font-family:$main-font, $font-weight:$regular-weight) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+}
+
+@mixin bold-font($font-family:$main-font, $font-weight:$bold-weight) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+}

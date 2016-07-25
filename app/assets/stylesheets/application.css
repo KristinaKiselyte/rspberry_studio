@@ -17,6 +17,7 @@
 @import "neat";
 
 @import "welcome";
+@import "typography";
 
 body {
   margin: 0;
