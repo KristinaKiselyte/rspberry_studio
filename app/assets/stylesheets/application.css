@@ -18,6 +18,7 @@
 
 @import "welcome";
 @import "typography";
+@import "grid";
 
 body {
   margin: 0;

@@ -4,7 +4,10 @@
 
 @import 'typography'; // type
 
+
 $grey: #f4f4f4;
+$dark: #373737;
+$pink: #FF999E;
 
 nav {
   background-color: $grey;
@@ -60,4 +63,23 @@ ul {
 .big-txt {
   font-size: 5em;
   font-weight: 700;
+}
+
+.intro-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+li a {
+    display: block;
+    color: $dark;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    @include bold-font();
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    border-bottom: 4px solid $pink;
 }
