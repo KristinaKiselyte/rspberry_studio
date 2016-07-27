@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://fonts.googleapis.com/css?family=Muli);
-
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600,700);
 
 
 @mixin regular-font($font-family:$main-font, $font-weight:$regular-weight) {
@@ -10,11 +10,17 @@
     font-weight: $font-weight;
 }
 
-$main-font: 'Muli', sans-serif;
+$main-font: 'Poppins', sans-serif;
 $regular-weight: 400;
 $bold-weight: 700;
+$semibold-weight: 600;
 
 @mixin regular-font($font-family:$main-font, $font-weight:$regular-weight) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+}
+
+@mixin semi-font($font-family:$main-font, $font-weight:$semibold-weight) {
     font-family: $font-family;
     font-weight: $font-weight;
 }
@@ -25,7 +31,7 @@ $bold-weight: 700;
 }
 
 .p-title, .bold {
-  @include bold-font();
+  @include semi-font();
 }
 
 span.regular {
