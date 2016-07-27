@@ -8,6 +8,7 @@
 $grey: #f4f4f4;
 $dark: #373737;
 $pink: #FF999E;
+$shadow: #b9b7b7;
 
 nav {
   background-color: $grey;
@@ -45,6 +46,7 @@ body {
   border-radius: 50%;
   border: 5px solid #fff;
   max-width: 150px;
+  box-shadow: 1px 1px 5px $shadow;
   }
 }
 
